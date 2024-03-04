@@ -1,1 +1,4 @@
 data/cats/ 
+*/__pycache__/ 
+onnx/*.onnx
+onnx/*.ckpt
