@@ -1,7 +1,5 @@
 # Autoencoder
-An autoencoder is a type of artificial neural network used for unsupervised learning. 
-It is designed to learn efficient representations of the input data, typically by compressing the input into a lower-dimensional latent space and then 
-reconstructing the input from this compressed representation.
+An autoencoder is a type of artificial neural network designed to learn efficient representations of the input data, typically by compressing the input into a lower-dimensional latent space and then reconstructing the input from this compressed representation.
 
 The network consists of two main parts: an encoder and a decoder.
 - Encoder: The encoder takes the input data and maps it to a lower-dimensional representation, often referred to as the latent space or encoding. This step is essentially a compression process where the input data is transformed into a compact representation.
@@ -33,7 +31,7 @@ dataset
 ```console
 root@linux:~$ git clone git@github.com:widyamsib/image-reconstruction-autoencoder.git
 root@linux:~$ cd image-reconstruction-autoencoder
-root@linux:~$ docker build -t haidhi/autoencoder .
+root@linux:~$ docker build -t autoencoder .
 ```
 after you have the image you can start the training 
 ```console
